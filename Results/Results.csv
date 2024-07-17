@@ -1,0 +1,459 @@
+ID,Tool Used,Cypher Query,Final Answer,Time The Prompt Took
+0,Cypher,"MATCH (reg:Regulation)
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1']
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report on the proportion of sustainable/renewable energy used against the overall energy consumption. Standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3 are available for this.
+Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1
+4.2.1: Implement processes requiring senior business approval for any new service needing dedicated hardware not running on a resource sharing platform, including servers, storage, and networking aspects.
+5.1.1: Ensure IT equipment shares air flow direction within cabinets, adjacent cabinets, and across aisles. Utilize the hot/cold aisle concept to align equipment airflow and reinforce design with empty fully blanked cabinets or solid doors.",6
+1,Cypher,"MATCH (reg:Regulation)
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1']
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",7
+2,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","The action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1 is as follows: - Regulation 3.2.8: Focus on monitoring and reporting the proportion of energy used from renewable/sustainable sources in the data centre. - Regulation 4.2.1: Require senior business approval for new services requiring dedicated hardware not on a resource sharing platform. - Regulation 5.1.1: Ensure IT equipment shares airflow direction within and between cabinets using hot/cold aisle concepts for efficient cooling.",8
+3,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","3.2.8: Monitor and report the proportion of sustainable/renewable energy used in the data centre against overall energy consumption. Expect this to become a required reporting metric.
+4.2.1: Require senior business approval for any new service that needs dedicated hardware and won't run on a shared platform, covering servers, storage, and networking components.
+5.1.1: Implement hot/cold aisle design in data centre layout to ensure proper air flow alignment, with equipment drawing intake air from cold aisles and exhausting air into hot aisles. Reinforce design with fully blanked cabinets or solid doors.",4
+4,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Evaluate the percentage of energy consumed by the data center that is derived from renewable or sustainable sources. Document and report this percentage in comparison to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for accurate measurement.
+Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Establish processes that require approval from senior management for any new service that necessitates dedicated hardware, including servers, storage, and networking components, which do not operate on a resource-sharing platform.
+5.1.1: Ensure that IT equipment in cabinets shares the same airflow direction. Implement the hot/cold aisle arrangement to align airflow in and across cabinets and aisles, enhancing the design with fully blanked empty cabinets or solid doors.",7
+5,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+- 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4
++ Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3.
++ Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+- 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4
+- 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control.
++ Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",9
+6,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+
+3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report the proportion of sustainable/renewable energy used against overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics and definitions available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1
+4.2.1: Implement processes requiring senior business approval for new services needing dedicated hardware not on a resource sharing platform, including servers, storage, and networking aspects.
+5.1.1: Ensure IT equipment shares airflow direction within cabinets, adjacent cabinets, and across aisles. Implement hot/cold aisle concept to align equipment airflow. Reinforce design with blanked cabinets or solid doors instead of leaving gaps in aisles.",10
+7,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",11
+8,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Assess the proportion of energy utilized by the data center that originates from renewable or sustainable sources. Track and report this proportion relative to the total energy usage. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for consistency.
+Notes: Standardized metrics are provided in EN 50600-4-3 and ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Implement procedures that mandate senior business approval for the introduction of any new service that requires dedicated hardware, including servers, storage, and networking, that does not function on a resource-sharing platform.
+5.1.1: Make sure that IT equipment maintains consistent airflow direction within cabinets, between adjacent cabinets, and across aisles. Apply the hot/cold aisle strategy to coordinate equipment airflow, reinforcing this setup with fully blanked empty cabinets or solid doors.",6
+9,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Here is the action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1:
+3.2.8: Monitor and report the proportion of energy from renewable sources used by the data centre, aiming for sustainability over time.
+4.2.1: Obtain senior business approval for new services requiring dedicated hardware not on a resource-sharing platform like servers, storage, and networking components.
+5.1.1: Implement hot/cold aisle design to align equipment airflow for efficient cooling and prevent air mixing in data centre cabinets and aisles.",8
+10,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report on the proportion of sustainable/renewable energy used against the overall energy consumption. Standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3 are available for this.
+Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1
+4.2.1: Implement processes requiring senior business approval for any new service needing dedicated hardware not running on a resource sharing platform, including servers, storage, and networking aspects.
+5.1.1: Ensure IT equipment shares air flow direction within cabinets, adjacent cabinets, and across aisles. Utilize the hot/cold aisle concept to align equipment airflow and reinforce design with empty fully blanked cabinets or solid doors.",9
+11,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","Here is the action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1:
+- 3.2.8: Monitor and report the proportion of energy from renewable sources used by the data centre, aiming for sustainability over time.
+- 4.2.1: Obtain senior business approval for new services requiring dedicated hardware not on a resource-sharing platform like servers, storage, and networking components.
+- 5.1.1: Implement hot/cold aisle design to align equipment airflow for efficient cooling and prevent air mixing in data centre cabinets and aisles.",4
+12,No,,The Knowledge Graph has no knowledge of the request you submitted.,1
+13,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Consider the percentage of energy used by the data center that comes from renewable or sustainable sources. Record and report this percentage against the overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Require senior business approval for any new service that needs dedicated hardware, including servers, storage, and networking aspects, that does not run on a resource-sharing platform.
+5.1.1: Ensure that IT equipment has a consistent airflow direction within cabinets, in adjacent cabinets, and across aisles. Implement the hot/cold aisle concept to align equipment airflow and enhance the design with empty fully blanked cabinets or solid doors.",8
+14,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+3.2.8: Evaluate the energy consumption of the data center, focusing on the proportion derived from renewable or sustainable sources. Record and report this data using standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics are available in EN 50600-4-3 and ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Establish a requirement for senior business approval before deploying any new service that requires dedicated hardware, including servers, storage, and networking, that does not utilize a resource-sharing platform.
+5.1.1: Ensure that all IT equipment within cabinets, between adjacent cabinets, and across aisles shares the same airflow direction. Utilize the hot/cold aisle design to align airflow and reinforce this setup with fully blanked empty cabinets or solid doors.",4
+15,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","The action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1 is as follows: - Regulation 3.2.8: Focus on monitoring and reporting the proportion of energy used from renewable/sustainable sources in the data centre. - Regulation 4.2.1: Require senior business approval for new services requiring dedicated hardware not on a resource sharing platform. - Regulation 5.1.1: Ensure IT equipment shares airflow direction within and between cabinets using hot/cold aisle concepts for efficient cooling.",8
+16,Cypher,"MATCH (reg:Regulation)
+WHERE reg.ID IN {['3.2.8', '4.2.1', '5.1.1']}
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription",Error - Cypher Query Incorrect,0
+17,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+
+3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report the proportion of sustainable/renewable energy used against overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics and definitions available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1
+4.2.1: Implement processes requiring senior business approval for new services needing dedicated hardware not on a resource sharing platform, including servers, storage, and networking aspects.
+5.1.1: Ensure IT equipment shares airflow direction within cabinets, adjacent cabinets, and across aisles. Implement hot/cold aisle concept to align equipment airflow. Reinforce design with blanked cabinets or solid doors instead of leaving gaps in aisles.",10
+18,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+
+3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report the proportion of sustainable/renewable energy used against overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics and definitions available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1
+4.2.1: Implement processes requiring senior business approval for new services needing dedicated hardware not on a resource sharing platform, including servers, storage, and networking aspects.
+5.1.1: Ensure IT equipment shares airflow direction within cabinets, adjacent cabinets, and across aisles. Implement hot/cold aisle concept to align equipment airflow. Reinforce design with blanked cabinets or solid doors instead of leaving gaps in aisles.",10
+19,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","Here is the action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1:
+
+3.2.8: Monitor and report the proportion of energy from renewable sources used by the data centre, aiming for sustainability over time.
+4.2.1: Obtain senior business approval for new services requiring dedicated hardware not on a resource-sharing platform like servers, storage, and networking components.
+5.1.1: Implement hot/cold aisle design to align equipment airflow for efficient cooling and prevent air mixing in data centre cabinets and aisles.",11
+20,Vector,,I'm sorry but I don't have any information on the provided topic.,3
+21,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","The action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1 is as follows: - Regulation 3.2.8: Focus on monitoring and reporting the proportion of energy used from renewable/sustainable sources in the data centre. - Regulation 4.2.1: Require senior business approval for new services requiring dedicated hardware not on a resource sharing platform. - Regulation 5.1.1: Ensure IT equipment shares airflow direction within and between cabinets using hot/cold aisle concepts for efficient cooling.",6
+22,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",8
+23,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+3.2.8: Evaluate the percentage of energy consumed by the data center that originates from renewable or sustainable sources. Record and report this percentage relative to the total energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics are described in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Implement processes that necessitate senior business approval for any new service needing dedicated hardware, including servers, storage, and networking elements, which does not operate on a resource-sharing platform.
+5.1.1: Ensure that IT equipment shares a common airflow direction within cabinets, between adjacent cabinets, and across aisles by utilizing the hot/cold aisle concept for optimal temperature control.
+Notes: Reinforce the hot/cold aisle arrangement by using fully blanked cabinets rather than leaving gaps in aisles.",9
+24,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Evaluate the percentage of energy consumed by the data center that is derived from renewable or sustainable sources. Document and report this percentage in comparison to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for accurate measurement.
+Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Establish processes that require approval from senior management for any new service that necessitates dedicated hardware, including servers, storage, and networking components, which do not operate on a resource-sharing platform.
+5.1.1: Ensure that IT equipment in cabinets shares the same airflow direction. Implement the hot/cold aisle arrangement to align airflow in and across cabinets and aisles, enhancing the design with fully blanked empty cabinets or solid doors.",14
+25,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+- 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4
++ Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3.
++ Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+- 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4
+- 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control.
++ Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",12
+26,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",10
+27,Cypher,"MATCH (reg:Regulation)
+WHERE reg.ID IN {['3.2.8', '4.2.1', '5.1.1']}
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription",Error - Cypher Query Incorrect,0
+28,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","- 3.2.8: Evaluate the percentage of energy consumed by the data center that is derived from renewable or sustainable sources. Document and report this percentage in comparison to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for accurate measurement.
+        + Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3.
+        + Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+- 4.2.1: Establish processes that require approval from senior management for any new service that necessitates dedicated hardware, including servers, storage, and networking components, which do not operate on a resource-sharing platform.
+- 5.1.1: Ensure that IT equipment in cabinets shares the same airflow direction. Implement the hot/cold aisle arrangement to align airflow in and across cabinets and aisles, enhancing the design with fully blanked empty cabinets or solid doors.",5
+29,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","- Action Plan:
+  - 3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report the proportion of sustainable/renewable energy used against overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+    + Notes: Standardized metrics are available in EN 50600-4-3 or ISO/IEC 30134-3.
+    + Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1
+  - 4.2.1: Implement processes requiring senior business approval for new services needing dedicated hardware not on a resource-sharing platform, including servers, storage, and networking aspects.
+  - 5.1.1: Ensure IT equipment shares an airflow direction within cabinets, adjacent cabinets, and across aisles by following the hot/cold aisle concept for proper temperature management.
+    + Notes: Reinforce Hot/Cold aisle design with fully blanked cabinets rather than leaving gaps in aisles.",9
+30,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+3.2.8: Assess the percentage of energy used by the data center that comes from renewable or sustainable sources. Record and report this percentage against the overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+- Notes: Standardized metrics are available in EN 50600-4-3 or ISO/IEC 30134-3.
+- Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Establish processes that require senior business approval for any new services needing dedicated hardware not on a resource-sharing platform, including servers, storage, and networking components.
+5.1.1: Ensure IT equipment maintains consistent airflow direction within cabinets, adjacent cabinets, and across aisles by implementing the hot/cold aisle concept for proper temperature management.
+- Notes: Reinforce the hot/cold aisle design with fully blanked cabinets rather than leaving gaps in aisles.",10
+31,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",11
+32,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+- 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4
++ Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3.
++ Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+- 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4
+- 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control.
++ Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",13
+33,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+3.2.8: Evaluate the percentage of energy consumed by the data center that originates from renewable or sustainable sources. Record and report this percentage relative to the total energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics are described in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Implement processes that necessitate senior business approval for any new service needing dedicated hardware, including servers, storage, and networking elements, which does not operate on a resource-sharing platform.
+5.1.1: Ensure that IT equipment shares a common airflow direction within cabinets, between adjacent cabinets, and across aisles by utilizing the hot/cold aisle concept for optimal temperature control.
+Notes: Reinforce the hot/cold aisle arrangement by using fully blanked cabinets rather than leaving gaps in aisles.",7
+34,Cypher,"MATCH (reg:Regulation)
+WHERE reg.ID IN {['3.2.8', '4.2.1', '5.1.1']}
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription",Error - Cypher Query Incorrect,0
+35,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Consider the proportion of energy used by the data center that comes from renewable or sustainable sources. Record and report this proportion against the total energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Establish processes requiring senior business approval for new services that need dedicated hardware, including servers, storage, and networking components, which do not run on a resource-sharing platform.
+5.1.1: Ensure IT equipment has a unified airflow direction within cabinets, between adjacent cabinets, and across aisles by following the hot/cold aisle concept for efficient temperature management.
+Notes: Reinforce the hot/cold aisle setup with fully blanked cabinets rather than leaving gaps in aisles.",12
+36,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","The action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1 is as follows: - Regulation 3.2.8: Focus on monitoring and reporting the proportion of energy used from renewable/sustainable sources in the data centre. - Regulation 4.2.1: Require senior business approval for new services requiring dedicated hardware not on a resource sharing platform. - Regulation 5.1.1: Ensure IT equipment shares airflow direction within and between cabinets using hot/cold aisle concepts for efficient cooling.",12
+37,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","Action Plan:
+3.2.8: Evaluate the proportion of energy used by the data center that is sourced from renewable or sustainable sources. Record and report this proportion in relation to the total energy consumption. Employ standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics are outlined in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Develop processes that necessitate senior business approval for any new services requiring dedicated hardware not operating on a resource-sharing platform, including servers, storage, and networking aspects.
+5.1.1: Ensure IT equipment shares an airflow direction within cabinets, neighboring cabinets, and across aisles, adhering to the hot/cold aisle concept for optimal temperature management.
+Notes: Reinforce the hot/cold aisle design with fully blanked cabinets instead of leaving gaps in aisles.",11
+38,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Evaluate the percentage of energy consumed by the data center that is derived from renewable or sustainable sources. Document and report this percentage in comparison to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for accurate measurement.
+Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Establish processes that require approval from senior management for any new service that necessitates dedicated hardware, including servers, storage, and networking components, which do not operate on a resource-sharing platform.
+5.1.1: Ensure that IT equipment in cabinets shares the same airflow direction. Implement the hot/cold aisle arrangement to align airflow in and across cabinets and aisles, enhancing the design with fully blanked empty cabinets or solid doors.",8
+39,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+- 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4
++ Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3.
++ Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+- 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4
+- 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control.
++ Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",8
+40,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 entails evaluating the use of renewable energy sources, obtaining senior business approval for new services, and maintaining proper airflow direction for IT equipment.",9
+41,Cypher,"MATCH (reg:Regulation)
+WHERE reg.ID IN {['3.2.8', '4.2.1', '5.1.1']}
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription",Error - Cypher Query Incorrect,0
+42,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1 is as follows: - Regulation 3.2.8: Focus on monitoring and reporting the proportion of energy used from renewable/sustainable sources in the data centre. - Regulation 4.2.1: Require senior business approval for new services requiring dedicated hardware not on a resource sharing platform. - Regulation 5.1.1: Ensure IT equipment shares airflow direction within and between cabinets using hot/cold aisle concepts for efficient cooling.",12
+43,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+- 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4
++ Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3.
++ Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+- 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4
+- 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control.
++ Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",10
+44,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Assess the percentage of the data center’s energy consumption that comes from renewable or sustainable sources. Record and report this percentage compared to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics are available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Require senior business approval for any new service that needs dedicated hardware, including servers, storage, and networking components, which does not run on a resource-sharing platform.
+5.1.1: Ensure IT equipment has a consistent airflow direction within cabinets, between adjacent cabinets, and across aisles. Follow the hot/cold aisle design for efficient temperature management.
+Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles.",6
+45,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+3.2.8: Evaluate the proportion of energy utilized by the data center that is derived from renewable or sustainable sources. Record and report this proportion against the total energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics are found in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Implement processes that require senior business approval for any new service needing dedicated hardware not running on a resource-sharing platform, including servers, storage, and networking elements.
+5.1.1: Ensure IT equipment shares an airflow direction within cabinets, adjacent cabinets, and across aisles by following the hot/cold aisle concept for proper temperature management.
+Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets instead of leaving gaps in aisles.",7
+46,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+3.2.8: Determine the percentage of energy used by the data center that is sourced from renewable or sustainable sources. Record and report this percentage against the overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3.
+Notes: Standardized metrics are accessible in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Create processes that require senior business approval for any new services requiring dedicated hardware, including servers, storage, and networking components, that do not operate on a resource-sharing platform.
+5.1.1: Ensure that IT equipment maintains a consistent airflow direction within cabinets, adjacent cabinets, and across aisles by adhering to the hot/cold aisle design for effective temperature control.
+Notes: Reinforce the hot/cold aisle setup by using fully blanked cabinets rather than leaving gaps in aisles.",14
+47,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Evaluate the percentage of energy consumed by the data center that is derived from renewable or sustainable sources. Document and report this percentage in comparison to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for accurate measurement.
+Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3.
+Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+4.2.1: Establish processes that require approval from senior management for any new service that necessitates dedicated hardware, including servers, storage, and networking components, which do not operate on a resource-sharing platform.
+5.1.1: Ensure that IT equipment in cabinets shares the same airflow direction. Implement the hot/cold aisle arrangement to align airflow in and across cabinets and aisles, enhancing the design with fully blanked empty cabinets or solid doors.",13
+48,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+- 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4
++ Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3.
++ Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+- 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4
+- 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control.
++ Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",10
+49,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",10
+50,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan:
+- 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4
++ Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3.
++ Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1.
+- 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4
+- 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control.
++ Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",6
+51,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report on the proportion of sustainable/renewable energy used against the overall energy consumption. Standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3 are available for this. Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1 4.2.1: Implementx processes requiring senior business approval for any new service needing dedicated hardware not running on a resource sharing platform, including servers, storage, and networking aspects. 5.1.1: Ensure IT equipment shares air flow direction within cabinets, adjacent cabinets, and across aisles. Utilize the hot/cold aisle concept to align equipment airflow and reinforce design with empty fully blanked cabinets or solid doors.",8
+52,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",9
+53,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","The action plan for the regulations xwith IDs 3.2.8, 4.2.1, and 5.1.1 is as follows: - Regulation 3.2.8: Focus on monitoring and reporting the proportion of energy used from renewable/sustainable sources in the data centre. - Regulation 4.2.1: Require senior business approval for new services requiring dedicated hardware not on a resource sharing platform. - Regulation 5.1.1: Ensure IT equipment shares airflow direction within and between cabinets using hot/cold aisle concepts for efficient cooling.",11
+54,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","3.2.8: Monitor and report the proportion of sustainable/renewable energy used in the data centre against overall energy consumption. Expect this to become a required reporting metric. 4.2.1: Require senior business approval for any new service that needs dedicated hardware and won't run on a shared platform, covering servers, storage, and networking components. 5.1.1: Implement hot/cold aisle design in data centre layout to ensure proper air flow alignment, with equipment drawing intake air from cold aisles and exhausting air into hot aisles. Reinforce design with fully blanked cabinets or solid doors.",14
+55,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Evaluate the percentage of energy consumed by the data center that is derived from renewable or sustainable sources. Document and report this percentage in comparison to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for accurate measurement. Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Establish processes that require approval from senior management for any new service that necessitates dedicated hardware, including servers, storage, and networking components, which do not operate on a resource-sharing platform. 5.1.1: Ensure that IT equipment in cabinets shares the same airflow direction. Implement the hot/cold aisle arrangement to align airflow in and across cabinets and aisles, enhancing the design with fully blanked empty cabinets or solid doors.",6
+56,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: - 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4 + Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3. + Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. - 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4 - 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control. + Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",24
+57,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report the proportion of sustainable/renewable energy used against overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics and definitions available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1 4.2.1: Implement processes requiring senior business approval for new services needing dedicated hardware not on a resource sharing platform, including servers, storage, and networking aspects. 5.1.1: Ensure IT equipment shares airflow direction within cabinets, adjacent cabinets, and across aisles. Implement hot/cold aisle concept to align equipment airflow. Reinforce design with blanked cabinets or solid doors instead of leaving gaps in aisles.",12
+58,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",12
+59,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Assess the proportion of energy utilized by the data center that originates from renewable or sustainable sources. Track and report this proportion relative to the total energy usage. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for consistency. Notes: Standardized metrics are provided in EN 50600-4-3 and ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Implement procedures that mandate senior business approval for the introduction of any new service that requires dedicated hardware, including servers, storage, and networking, that does not function on a resource-sharing platform. 5.1.1: Make sure that IT equipment maintains consistent airflow direction within cabinets, between adjacent cabinets, and across aisles. Apply the hot/cold aisle strategy to coordinate equipment airflow, reinforcing this setup with fully blanked empty cabinets or solid doors.",8
+60,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","Here is the action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1: 3.2.8: Monitor and report the proportion of energy from renewable sources used by the data centre, aiming for sustainability over time. 4.2.1: Obtain senior business approval for new services requiring dedicated hardware not on a resource-sharing platform like servers, storage, and networking components. 5.1.1: Implement hot/cold aisle design to align equipment airflow for efficient cooling and prevent air mixing in data centre cabinets and aisles.",7
+61,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report on the proportion of sustainable/renewable energy used against the overall energy consumption. Standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3 are available for this. Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1 4.2.1: Implement processes requiring senior business approval for any new service needing dedicated hardware not running on a resource sharing platform, including servers, storage, and networking aspects. 5.1.1: Ensure IT equipment shares air flow direction within cabinets, adjacent cabinets, and across aisles. Utilize the hot/cold aisle concept to align equipment airflow and reinforce design with empty fully blanked cabinets or solid doors.",5
+62,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","Here is the action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1: - 3.2.8: Monitor and report the proportion of energy from renewable sources used by the data centre, aiming for sustainability over time. - 4.2.1: Obtain senior business approval for new services requiring dedicated hardware not on a resource-sharing platform like servers, storage, and networking components. - 5.1.1: Implement hot/cold aisle design to align equipment airflow for efficient cooling and prevent air mixing in data centre cabinets and aisles.",6
+63,Vector,,The Knowledge Graph has no knowledge of the request you submitted.,0
+64,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Consider the percentage of energy used by the data center that comes from renewable or sustainable sources. Record and report this percentage against the overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Require senior business approval for any new service that needs dedicated hardware, including servers, storage, and networking aspects, that does not run on a resource-sharing platform. 5.1.1: Ensure that IT equipment has a consistent airflow direction within cabinets, in adjacent cabinets, and across aisles. Implement the hot/cold aisle concept to align equipment airflow and enhance the design with empty fully blanked cabinets or solid doors.",9
+65,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Evaluate the energy consumption of the data center, focusing on the proportion derived from renewable or sustainable sources. Record and report this data using standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics are available in EN 50600-4-3 and ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Establish a requirement for senior business approval before deploying any new service that requires dedicated hardware, including servers, storage, and networking, that does not utilize a resource-sharing platform. 5.1.1: Ensure that all IT equipment within cabinets, between adjacent cabinets, and across aisles shares the same airflow direction. Utilize the hot/cold aisle design to align airflow and reinforce this setup with fully blanked empty cabinets or solid doors.",10
+66,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1 is as follows: - Regulation 3.2.8: Focus on monitoring and reporting the proportion of energy used from renewable/sustainable sources in the data centre. - Regulation 4.2.1: Require senior business approval for new services requiring dedicated hardware not on a resource sharing platform. - Regulation 5.1.1: Ensure IT equipment shares airflow direction within and between cabinets using hot/cold aisle concepts for efficient cooling.",10
+67,Cypher,"MATCH (reg:Regulation)
+WHERE reg.ID IN {['3.2.8', '4.2.1', '5.1.1']}
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription",Error - Cypher Query Incorrect (reviewed),0
+68,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report the proportion of sustainable/renewable energy used against overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics and definitions available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1 4.2.1: Implement processes requiring senior business approval for new services needing dedicated hardware not on a resource sharing platform, including servers, storage, and networking aspects. 5.1.1: Ensure IT equipment shares airflow direction within cabinets, adjacent cabinets, and across aisles. Implement hot/cold aisle concept to align equipment airflow. Reinforce design with blanked cabinets or solid doors instead of leaving gaps in aisles.",5
+69,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report the proportion of sustainable/renewable energy used against overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics and definitions available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1 4.2.1: Implement processes requiring senior business approval for new services needing dedicated hardware not on a resource sharing platform, including servers, storage, and networking aspects. 5.1.1: Ensure IT equipment shares airflow direction within cabinets, adjacent cabinets, and across aisles. Implement hot/cold aisle concept to align equipment airflow. Reinforce design with blanked cabinets or solid doors instead of leaving gaps in aisles.",14
+70,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Here is the action plan for the regulations with IDS 3.2.8, 4.2.1, and 5.1.1: 3.2.8: Monitor and report the proportion of energy from renewable sources used by the data centre, aiming for sustainability over time. 4.2.1: Obtain senior business approval for new services requiring dedicated hardware not on a resource-sharing platform like servers, storage, and networking components. 5.1.1: Implement hot/cold aisle design to align equipment airflow for efficient cooling and prevent air mixing in data centre cabinets and aisles.",8
+71,Vector,,I'm sorry but I don't have any information on the provided topic.,7
+72,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1 is as follows: - Regulation 3.2.8: Focus on monitoring and reporting the proportion of energy used from renewable/sustainable sources in the data centre. - Regulation 4.2.1: Require senior business approval for new services requiring dedicated hardware not on a resource sharing platform. - Regulation 5.1.1: Ensure IT equipment shares airflow direction within and between cabinets using hot/cold aisle concepts for efficient cooling.",6
+73,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",9
+74,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Evaluate the percentage of energy consumed by the data center that originates from renewable or sustainable sources. Record and report this percentage relative to the total energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics are described in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Implement processes that necessitate senior business approval for any new service needing dedicated hardware, including servers, storage, and networking elements, which does not operate on a resource-sharing platform. 5.1.1: Ensure that IT equipment shares a common airflow direction within cabinets, between adjacent cabinets, and across aisles by utilizing the hot/cold aisle concept for optimal temperature control. Notes: Reinforce the hot/cold aisle arrangement by using fully blanked cabinets rather than leaving gaps in aisles.",14
+75,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Evaluate the percentage of energy consumed by the data center that is derived from renewable or sustainable sources. Document and report this percentage in comparison to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for accurate measurement. Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Establish processes that require approval from senior management for any new service that necessitates dedicated hardware, including servers, storage, and networking components, which do not operate on a resource-sharing platform. 5.1.1: Ensure that IT equipment in cabinets shares the same airflow direction. Implement the hot/cold aisle arrangement to align airflow in and across cabinets and aisles, enhancing the design with fully blanked empty cabinets or solid doors.",13
+76,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: - 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4 + Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3. + Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. - 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4 - 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control. + Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",10
+77,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",7
+78,Cypher,"MATCH (reg:Regulation)
+WHERE reg.ID IN {['3.2.8', '4.2.1', '5.1.1']}
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription",Error - Cypher Query Incorrect (reviewed),0
+79,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","- 3.2.8: Evaluate the percentage of energy consumed by the data center that is derived from renewable or sustainable sources. Document and report this percentage in comparison to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for accurate measurement. + Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3. + Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. - 4.2.1: Establish processes that require approval from senior management for any new service that necessitates dedicated hardware, including servers, storage, and networking components, which do not operate on a resource-sharing platform. - 5.1.1: Ensure that IT equipment in cabinets shares the same airflow direction. Implement the hot/cold aisle arrangement to align airflow in and across cabinets and aisles, enhancing the design with fully blanked empty cabinets or solid doors.",12
+80,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","- Action Plan: - 3.2.8: Consider the proportion of energy used by the data centre that comes from renewable/sustainable sources. Record and report the proportion of sustainable/renewable energy used against overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. + Notes: Standardized metrics are available in EN 50600-4-3 or ISO/IEC 30134-3. + Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1 - 4.2.1: Implement processes requiring senior business approval for new services needing dedicated hardware not on a resource-sharing platform, including servers, storage, and networking aspects. - 5.1.1: Ensure IT equipment shares an airflow direction within cabinets, adjacent cabinets, and across aisles by following the hot/cold aisle concept for proper temperature management. + Notes: Reinforce Hot/Cold aisle design with fully blanked cabinets rather than leaving gaps in aisles.",11
+81,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Assess the percentage of energy used by the data center that comes from renewable or sustainable sources. Record and report this percentage against the overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. - Notes: Standardized metrics are available in EN 50600-4-3 or ISO/IEC 30134-3. - Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Establish processes that require senior business approval for any new services needing dedicated hardware not on a resource-sharing platform, including servers, storage, and networking components. 5.1.1: Ensure IT equipment maintains consistent airflow direction within cabinets, adjacent cabinets, and across aisles by implementing the hot/cold aisle concept for proper temperature management. - Notes: Reinforce the hot/cold aisle design with fully blanked cabinets rather than leaving gaps in aisles.",8
+82,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, AND 5.1.1 includes considering renewable energy sources, senior business approval for new services, and ensuring proper airflow direction for IT equipment.",10
+83,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: - 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4 + Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3. + Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. - 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4 - 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control. + Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps IN aisles. - 4",7
+84,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Evaluate the percentage of energy consumed by the data center that originates from renewable or sustainable sources. Record and report this percentage relative to the total energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics are described in EN 50600-4-3 or ISO/IEC 30134-3. Referred documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Implement processes that necessitate senior business approval for any new service needing dedicated hardware, including servers, storage, and networking elements, which does not operate on a resource-sharing platform. 5.1.1: Ensure that IT equipment shares a common airflow direction within cabinets, between adjacent cabinets, and across aisles by utilizing the hot/cold aisle concept for optimal temperature control. Notes: Reinforce the hot/cold aisle arrangement by using fully blanked cabinets rather than leaving gaps in aisles.",9
+85,Cypher,"MATCH (reg:Regulation)
+WHERE reg.ID IN {['3.2.8', '4.2.1', '5.1.1']}
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription",Error - Cypher Query Incorrect (reviewed),0
+86,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Consider the proportion of energy used by the data center that comes from renewable or sustainable sources. Record and report this proportion against the total energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Establish processes requiring senior business approval for new services that need dedicated hardware, including servers, storage, and networking components, which do not run on a resource-sharing platform. 5.1.1: Ensure IT equipment has a unified airflow direction within cabinets, between adjacent cabinets, and across aisles by following the hot/cold aisle concept for efficient temperature management. Notes: Reinforce the hot/cold aisle setup with fully blanked cabinets rather than leaving gaps in aisles.",14
+87,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1 is as follows: - Regulation 3.2.8: Focus on monitoring and reporting the proportion of energy used from renewable/sustainable sources in the data centre. - Regulation 4.2.1: Require senior business approval for new services requiring dedicated hardware not on a resource sharing platform. - Regulation 5.1.1: Ensure IT equipment shares airflow direction within and between cabinets using hot/cold aisle concepts for efficient cooling.",13
+88,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Evaluate the proportion of energy used by the data center that is sourced from renewable or sustainable sources. Record and report this proportion in relation to the total energy consumption. Employ standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics are outlined in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Develop processes that necessitate senior business approval for any new services requiring dedicated hardware not operating on a resource-sharing platform, including servers, storage, and networking aspects. 5.1.1: Ensure IT equipment shares an airflow direction within cabinets, neighboring cabinets, and across aisles, adhering to the hot/cold aisle concept for optimal temperature management. Notes: Reinforce the hot/cold aisle design with fully blanked cabinets instead of leaving gaps in aisles.",7
+89,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Evaluate the percentage of energy consumed by the data center that is derived from renewable or sustainable sources. Document and report this percentage in comparison to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for accurate measurement. Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Establish processes that require approval from senior management for any new service that necessitates dedicated hardware, including servers, storage, and networking components, which do not operate on a resource-sharing platform. 5.1.1: Ensure that IT equipment in cabinets shares the same airflow direction. Implement the hot/cold aisle arrangement to align airflow in and across cabinets and aisles, enhancing the design with fully blanked empty cabinets or solid doors. a",8
+90,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: - 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4 + Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3. + Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. - 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4 - 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control. + Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",14
+91,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for regulations 3.2.8, 4.2.1, and 5.1.1 entails evaluating the use of renewable energy sources, obtaining senior business approval for new services, and maintaining proper airflow direction for IT equipment.",12
+92,Cypher,"MATCH (reg:Regulation)
+WHERE reg.ID IN {['3.2.8', '4.2.1', '5.1.1']}
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription",Error - Cypher Query Incorrect (reviewed),0
+93,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription","The action plan for the regulations with IDs 3.2.8, 4.2.1, and 5.1.1 is as follows: - Regulation 3.2.8: Focus on monitoring and reporting the proportion of energy used from renewable/sustainable sources in the data centre. - Regulation 4.2.1: Require senior business approval for new services requiring dedicated hardware not on a resource sharing platform. - Regulation 5.1.1: Ensure IT equipment shares airflow direction within and between cabinets using hot/cold aisle concepts for efficient cooling.",10
+94,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: - 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4 + Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3. + Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. - 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4 - 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control. + Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",9
+95,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Assess the percentage of the data center’s energy consumption that comes from renewable or sustainable sources. Record and report this percentage compared to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics are available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Require senior business approval for any new service that needs dedicated hardware, including servers, storage, and networking components, which does not run on a resource-sharing platform. 5.1.1: Ensure IT equipment has a consistent airflow direction within cabinets, between adjacent cabinets, and across aisles. Follow the hot/cold aisle design for efficient temperature management. Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles.",8
+96,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Evaluate the proportion of energy utilized by the data center that is derived from renewable or sustainable sources. Record and report this proportion against the total energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics are found in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Implement processes that require senior business approval for any new service needing dedicated hardware not running on a resource-sharing platform, including servers, storage, and networking elements. 5.1.1: Ensure IT equipment shares an airflow direction within cabinets, adjacent cabinets, and across aisles by following the hot/cold aisle concept for proper temperature management. Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets instead of leaving gaps in aisles.",5
+97,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: 3.2.8: Determine the percentage of energy used by the data center that is sourced from renewable or sustainable sources. Record and report this percentage against the overall energy consumption. Use standardized metrics like EN 50600-4-3 or ISO/IEC 30134-3. Notes: Standardized metrics are accessible in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Create processes that require senior business approval for any new services requiring dedicated hardware, including servers, storage, and networking components, that do not operate on a resource-sharing platform. 5.1.1: Ensure that IT equipment maintains a consistent airflow direction within cabinets, adjacent cabinets, and across aisles by adhering to the hot/cold aisle design for effective temperature control. Notes: Reinforce the hot/cold aisle setup by using fully blanked cabinets rather than leaving gaps in aisles.",7
+98,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","3.2.8: Evaluate the percentage of energy consumed by the data center that is derived from renewable or sustainable sources. Document and report this percentage in comparison to the total energy consumption. Use standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3 for accurate measurement. Notes: Standardized metrics available in EN 50600-4-3 or ISO/IEC 30134-3. Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. 4.2.1: Establish processes that require approval from senior management for any new service that necessitates dedicated hardware, including servers, storage, and networking components, which do not operate on a resource-sharing platform. 5.1.1: Ensure that IT equipment in cabinets shares the same airflow direction. Implement the hot/cold aisle arrangement to align airflow in and across cabinets and aisles, enhancing the design with fully blanked empty cabinets or solid doors.",8
+99,Cypher,"MATCH (reg:Regulation) 
+WHERE reg.ID IN ['3.2.8', '4.2.1', '5.1.1'] 
+RETURN reg.ID AS RegulationID, reg.Description AS RegulationDescription, reg.Value AS RegulationValue, reg.Notes AS RegulationNotes, reg.`Referred Documentation` AS RegulationDocumentation","Action Plan: - 3.2.8: Consider the proportion of energy the data center uses that comes from renewable or sustainable sources. Record and report this proportion relative to overall energy consumption. Utilize standardized metrics such as EN 50600-4-3 or ISO/IEC 30134-3. - 4 + Notes: Standardized metrics are detailed in EN 50600-4-3 or ISO/IEC 30134-3. + Referred Documentation: EN 50600-4-3, ISO/IEC 30134-3, CLC 50600-5-1. - 4.2.1: Implement procedures requiring senior business approval for the introduction of new services needing dedicated hardware that does not run on a resource-sharing platform, including servers, storage, and networking elements. - 4 - 5.1.1: Ensure that IT equipment shares a common airflow direction within and between cabinets, as well as across aisles by using the hot/cold aisle concept for effective temperature control. + Notes: Reinforce the hot/cold aisle design by using fully blanked cabinets rather than leaving gaps in aisles. - 4",9
